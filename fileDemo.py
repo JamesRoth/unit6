@@ -8,7 +8,7 @@ numWords=0
 
 for line in file:
     if "shay" in line:
-        print(line)
+        print(line.strip())
     numWords+=1
 
 print(numWords)
