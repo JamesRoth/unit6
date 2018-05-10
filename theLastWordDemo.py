@@ -5,4 +5,4 @@
 file = open("fileDemo.py")
 
 for line in file:
-    print(line.strip())
+    print(line.strip(\n))
