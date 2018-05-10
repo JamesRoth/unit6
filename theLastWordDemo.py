@@ -5,5 +5,5 @@
 file = open("fileDemo.py")
 
 for line in file:
-    words = line.split(" ")
-    print(words.strip("\n"))
+    words = line.split()
+    print(words)
