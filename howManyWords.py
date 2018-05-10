@@ -5,3 +5,7 @@
 file = open("engmix.txt")
 
 wordLen = [0]*22
+
+for item in file:
+    item.strip()
+    wordLen[len(item)-1]+=1
