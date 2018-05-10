@@ -4,4 +4,4 @@
 
 file = open("engmix.txt")
 
-
+wordLen = [0]*22
