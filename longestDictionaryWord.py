@@ -5,6 +5,9 @@
 file = open("engmix.txt")
 
 length = 0
+item1 = ""
 
 for item in file:
-    
+    if len(item)>length:
+        item1 = item
+        length = len(item)
