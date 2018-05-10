@@ -11,4 +11,4 @@ for item in file:
     wordLen[len(item)-1]+=1
 
 for i in range(0, len(wordLen)):
-    print(i+1 + "letter words:", wordLen[i])
+    print(str(i+1) + "-letter words:", wordLen[i])
