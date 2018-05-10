@@ -4,4 +4,6 @@
 
 file = open("engmix.txt")
 
-
+for item in file:
+    if "zz" in item:
+        print(item)
