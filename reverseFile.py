@@ -6,10 +6,11 @@ string = input("Enter the name of the file you want to open: ")
 
 file = open(string)
 
+list1=[]
+
 for line in file:
-    list1=[]
     line=line.strip("\n")
     if len(line)>0:
         for i in range(len(line), 1, -1):
             list1.append(line[i-1])
-print(list1)
+    print(list1)
