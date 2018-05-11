@@ -10,5 +10,5 @@ for line in file:
     list1=[]
     if len(line)>0:
         for i in range(len(line), 1, -1):
-            list1.append(line[i])
+            list1.append(line[i-1])
     print(list1)
