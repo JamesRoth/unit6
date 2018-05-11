@@ -7,5 +7,5 @@ file = open("engmix.txt")
 for item in file:
     item=item.strip("\n")
     if len(item) > 0:
-        if item[0] == "j" and item[-1] == "r":
+        if item[0] == "x" and item[-1] == "d":
             print(item)
