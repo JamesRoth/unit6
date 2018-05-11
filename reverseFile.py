@@ -12,7 +12,6 @@ for line in file:
     line=line.strip("\n")
     if len(line)>0:
         list1.append(line)
-    
 
-for item in list1:
-    print(item)
+list1.reverse()
+print(list1)
