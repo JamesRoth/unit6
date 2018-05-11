@@ -14,4 +14,5 @@ for line in file:
         list1.append(line)
 
 list1.reverse()
-print(list1)
+for item in list1:
+    print(item)
