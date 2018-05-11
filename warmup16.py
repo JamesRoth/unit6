@@ -5,5 +5,5 @@
 file = open("engmix.txt")
 
 for item in file:
-    if item[0] of file == "j" and item[-1] of file == "r":
+    if item[0] == "j" and item[-1] == "r":
         print(item)
