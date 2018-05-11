@@ -5,7 +5,7 @@
 file = open("engmix.txt")
 
 for item in file:
-    itme.strip()
+    item.strip()
     if len(item) > 0:
         if item[0] == "j" and item[-1] == "r":
             print(item)
