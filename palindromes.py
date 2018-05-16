@@ -6,6 +6,7 @@ file = open("engmix.txt")
 
 def palindrome(text):
     list1 = []
+    text = str(text)
     for i in range(0, len(text)):
         list1.append(text[i])
     list2 = list1[:]
@@ -21,5 +22,5 @@ for item in file:
     if len(item) > 0:
         palindrome(item)
 """
-palindrome(kayak)
+palindrome("kayak")
 print(palindromes)
