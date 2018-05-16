@@ -12,15 +12,13 @@ def palindrome(text):
     list2 = list1[:]
     list2.reverse()
     if list1 == list2:
-        print("yes")
         palindromes.append(text)
 
 palindromes = []
-"""
+
 for item in file:
     item.strip("\n")
     if len(item) > 0:
         palindrome(item)
-"""
-palindrome("kayak")
+
 print(palindromes)
