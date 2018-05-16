@@ -19,5 +19,5 @@ for item in file:
     item.strip("\n")
     if len(item) > 0:
         palindrome(item)
-     
+
 print(palindromes)
