@@ -17,7 +17,7 @@ def palindrome(text):
 palindromes = []
 
 for item in file:
-    item.strip("\n")
+    item = item.strip("\n")
     if len(item) > 0:
         palindrome(item)
 
