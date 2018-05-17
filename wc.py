@@ -14,7 +14,7 @@ for item in file:
     item.strip("\n")
     lines+=1
     num = []
-    num = item.strip(" ")
+    num = item.split(" ")
     words+=len(num)
     chars+=len(item)
     
