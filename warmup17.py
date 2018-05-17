@@ -16,4 +16,6 @@ print(nameChar)
 
 for item in file:
     for char in nameChar:
-        
+        if char not in item:
+            break
+        print(item)
