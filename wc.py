@@ -16,7 +16,7 @@ for item in file:
     num = []
     num = item.strip(" ")
     words+=len(num)
-    chars+=len(line)
+    chars+=len(item)
     
 print(lines)
 print(words)
