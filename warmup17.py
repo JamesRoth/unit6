@@ -13,3 +13,7 @@ for char in name:
         nameChar.append(char.lower())
 
 print(nameChar)
+
+for item in file:
+    for char in nameChar:
+        
