@@ -19,5 +19,5 @@ for item in file:
     for char in nameChar:
         if char in item:
             num+=1
-    if num = len(nameChar):
+    if num == len(nameChar):
         print(item)
