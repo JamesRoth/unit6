@@ -11,9 +11,13 @@ words = 0
 chars = 0
 
 for item in file:
-    line.strip("\n")
+    item.strip("\n")
     lines+=1
-    words+=item.strip(" ")
+    num = item.strip(" ")
+    for thing in num:
+        words+=
     chars+=len(line)
     
 print(lines)
+print(words)
+print(chars)
