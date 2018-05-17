@@ -15,7 +15,9 @@ for char in name:
 print(nameChar)
 
 for item in file:
+    num = 0
     for char in nameChar:
-        if char not in item:
-            break
+        if char in item:
+            num+=1
+    if num = len(nameChar):
         print(item)
