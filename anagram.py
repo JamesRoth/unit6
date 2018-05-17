@@ -11,6 +11,7 @@ def anagram(string, list1):
         print(string)
 
 for item in file:
+    item = item.strip("\n")
     list2 = []
     for char in item:
         list2.append(item)
