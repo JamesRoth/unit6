@@ -6,4 +6,8 @@ file = open("engmix.txt")
 
 name = input("Enter your last name: ")
 
+nameChar = []
 
+for char in name:
+    if char ! in nameChar:
+        nameChar.append(char)
