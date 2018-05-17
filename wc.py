@@ -6,4 +6,4 @@ fileName = input("Enter the name of the file you want: ")
 
 file = open(fileName)
 
-
+print(len(file))
