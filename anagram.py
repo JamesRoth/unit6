@@ -14,7 +14,7 @@ for item in file:
     item = item.strip("\n")
     list2 = []
     for char in item:
-        list2.append(item)
+        list2.append(char)
     list2.sort()
     word = ""
     for item in list2:
