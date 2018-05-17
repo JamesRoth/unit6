@@ -13,6 +13,7 @@ chars = 0
 for item in file:
     line.strip("\n")
     lines+=1
+    words+=line.strip(" ")
     chars+=len(line)
     
 print(lines)
