@@ -6,4 +6,13 @@ fileName = input("Enter the name of the file you want: ")
 
 file = open(fileName)
 
-print(len(file))
+lines = 0
+words = 0
+chars = 0
+
+for item in file:
+    line.strip("\n")
+    lines+=1
+    chars+=len(line)
+    
+print(lines)
