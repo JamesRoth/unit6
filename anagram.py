@@ -7,4 +7,6 @@ file = open("engmix.txt")
 list1 = []
 
 def anagram(string, list1):
+    if string in list1:
+        print(string)
     
