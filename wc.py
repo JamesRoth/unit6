@@ -11,7 +11,7 @@ words = 0
 chars = 0
 
 for item in file:
-    item.strip("\n")
+    item = item.strip("\n")
     lines+=1
     num = []
     num = item.split(" ")
