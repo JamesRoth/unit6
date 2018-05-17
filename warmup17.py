@@ -10,6 +10,6 @@ nameChar = []
 
 for char in name:
     if char not in nameChar:
-        nameChar.append(char)
+        nameChar.append(char.lower())
 
 print(nameChar)
