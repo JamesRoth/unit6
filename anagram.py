@@ -19,3 +19,6 @@ for item in file:
     for item in list2:
         word+=item
     list1.append(word)
+
+for item in list1:
+    anagram(item, list1)
