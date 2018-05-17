@@ -13,9 +13,9 @@ chars = 0
 for item in file:
     item.strip("\n")
     lines+=1
+    num = []
     num = item.strip(" ")
-    for thing in num:
-        words+=
+    words+=len(num)
     chars+=len(line)
     
 print(lines)
