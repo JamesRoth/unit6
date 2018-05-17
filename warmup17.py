@@ -12,12 +12,10 @@ for char in name:
     if char not in nameChar:
         nameChar.append(char.lower())
 
-print(nameChar)
-
 for item in file:
     num = 0
-    for char in nameChar:
-        if char in item:
+    for i in range(0,len(nameChar)):
+        if nameChar[i] in item:
             num+=1
     if num == len(nameChar):
         print(item)
