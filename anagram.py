@@ -23,7 +23,6 @@ for item in file:
     list1.append(word)
     """
     list1.append(list2)
-"""
+
 for item in list1:
     anagram(item, list1)
-"""
