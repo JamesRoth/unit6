@@ -16,10 +16,14 @@ for item in file:
     for char in item:
         list2.append(char)
     list2.sort()
+    """
     word = ""
     for item in list2:
         word+=item
     list1.append(word)
-
+    """
+    list1.append(list2)
+"""
 for item in list1:
     anagram(item, list1)
+"""
