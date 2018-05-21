@@ -38,6 +38,9 @@ def prgm5():
         num = 0
         for char in "aeiou":
             num+=line.count(char)
+        if num>ans[1]:
+            ans[0] = line
+            ans[1] = num
 
 """
 letter = input("Enter a letter: ")
