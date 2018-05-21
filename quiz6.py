@@ -29,7 +29,7 @@ def prgm4():
         if len(line)>=10:
             num+=1
             if num == 8000:
-                print(num, line)
+                print(line)
                 break
 
 """
