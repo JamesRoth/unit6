@@ -10,3 +10,4 @@ def prgm1(char):
             print(line)
 
 letter = input("Enter a letter: ")
+prgm1(letter)
