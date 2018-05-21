@@ -32,6 +32,13 @@ def prgm4():
                 print(line)
                 break
 
+def prgm5():
+    ans = ["",0]
+    for line in file:
+        num = 0
+        for char in "aeiou":
+            num+=line.count(char)
+
 """
 letter = input("Enter a letter: ")
 prgm1(letter)
@@ -41,7 +48,8 @@ prgm2()
 num = int(input("Enter a length: "))
 char = input("Enter a letter: ")
 prgm3(num,char)
-"""
-prgm4()
 
+prgm4()
+"""
+prgm5()
 
