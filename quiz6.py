@@ -11,8 +11,8 @@ def prgm1(char):
 
 def prgm2():
     for line in file:
-        if item[0] == line[4] and line[4] == item [8]:
-            print(item)
+        if item[0] == line[4] and line[4] == line[8]:
+            print(line)
             break
 
 """
