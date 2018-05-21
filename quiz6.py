@@ -41,6 +41,7 @@ def prgm5():
         if num>ans[1]:
             ans[0] = line
             ans[1] = num
+    print(ans[0])
 
 """
 letter = input("Enter a letter: ")
