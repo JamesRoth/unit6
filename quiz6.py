@@ -18,7 +18,7 @@ def prgm2():
 
 def prgm3(num,char):
     for line in file:
-        line=line.strip()
+        line = line.strip()
         if len(line) == num and line[0] == char:
             print(line)
 
@@ -28,4 +28,6 @@ prgm1(letter)
 
 prgm2()
 """
+num = int(input("Enter a length: "))
+char = input("Enter a letter: ")
 prgm3()
