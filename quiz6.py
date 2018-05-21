@@ -11,9 +11,10 @@ def prgm1(char):
 
 def prgm2():
     for line in file:
-        if line[0] == line[4] and line[4] == line[8]:
-            print(line)
-            break
+        if len(line)>=9:
+            if line[0] == line[4] and line[4] == line[8]:
+                print(line)
+                break
 
 """
 letter = input("Enter a letter: ")
