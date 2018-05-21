@@ -16,8 +16,16 @@ def prgm2():
                 print(line)
                 break
 
+def prgm3(num,char):
+    for line in file:
+        line=line.strip()
+        if len(line) == num and line[0] == char:
+            print(line)
+
 """
 letter = input("Enter a letter: ")
 prgm1(letter)
-"""
+
 prgm2()
+"""
+prgm3()
