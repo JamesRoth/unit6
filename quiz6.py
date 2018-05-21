@@ -15,7 +15,8 @@ prgm2():
             print(item)
             break
 
+"""
 letter = input("Enter a letter: ")
 prgm1(letter)
-
-
+"""
+prgm2()
