@@ -43,7 +43,7 @@ def prgm5():
             ans[1] = num
     print(ans[0])
 
-"""
+
 letter = input("Enter a letter: ")
 prgm1(letter)
 
@@ -54,5 +54,5 @@ char = input("Enter a letter: ")
 prgm3(num,char)
 
 prgm4()
-"""
+
 prgm5()
