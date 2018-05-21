@@ -30,4 +30,4 @@ prgm2()
 """
 num = int(input("Enter a length: "))
 char = input("Enter a letter: ")
-prgm3()
+prgm3(num,char)
